@@ -1,8 +1,9 @@
+
 import { Mails } from 'lucide-react';
 import Link from 'next/link';
 import { cn } from '../lib/utils';
-import { buttonVariants } from './ui/button';
 import { LinkedinIcon } from './icons';
+import { buttonVariants } from './ui/button';
 
 export const Footer = () => {
   return (
@@ -10,7 +11,7 @@ export const Footer = () => {
       <footer className='flex justify-between gap-10 border-t dark:border-[#262626] p-8 pb-12 w-full'>
         <div className='flex flex-col gap-10'>
           <div className='flex flex-col gap-2'>
-            <h1 className='text-3xl font-semibold'>Let's talk</h1>
+            <h1 className='text-3xl font-semibold'>Let&apos;s talk</h1>
             <p className='font-extralight'>
               Send me message on LinkedIn or Email.
             </p>
@@ -32,14 +33,20 @@ export const Footer = () => {
           <Link
             href={'https://www.linkedin.com/in/andre-ponce-242498181/'}
             target='_blank'
-            className={cn(buttonVariants({ variant: 'default' }), "bg-purple-500 hover:bg-purple-500 text-white")}
+            className={cn(
+              buttonVariants({ variant: 'default' }),
+              'bg-purple-500 hover:bg-purple-500 text-white'
+            )}
           >
             <LinkedinIcon className='h-6 w-6' />
           </Link>
           <Link
             href={'mailto:asponceg@unah.hn'}
             target='_blank'
-            className={cn(buttonVariants({ variant: 'default' }), "bg-purple-500 hover:bg-purple-500 text-white")}
+            className={cn(
+              buttonVariants({ variant: 'default' }),
+              'bg-purple-500 hover:bg-purple-500 text-white'
+            )}
           >
             <Mails className='size-6' />
           </Link>

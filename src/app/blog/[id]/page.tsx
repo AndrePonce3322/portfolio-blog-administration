@@ -5,7 +5,7 @@ import { MyBlogContext } from '@/context/blog-context';
 import { Blog } from '@/firebase/client';
 import MDEditor from '@uiw/react-md-editor';
 import { useContext, useEffect, useState } from 'react';
-import BlogHeader from './header';
+import BlogHeader from '../header';
 
 type BlogWithoutId = Omit<Blog, 'id'>;
 
