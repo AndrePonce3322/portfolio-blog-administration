@@ -11,7 +11,7 @@ const onest = Onest({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Administración de Blog',
   description:
-    'En esta página web puedes crear blogs, editarlos y eliminarlos.',
+    'En esta página web puedes crear blogs, editarlos y eliminarlos de mi blog personal que se encuentra en andrepg.vercel.app',
 };
 
 export default function RootLayout({
