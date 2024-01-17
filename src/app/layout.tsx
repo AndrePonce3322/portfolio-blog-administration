@@ -1,12 +1,12 @@
 import Background from '@/components/background';
 import MyBlogProvider from '@/context/blog-context';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Onest } from 'next/font/google';
 import { Toaster } from 'sonner';
 import './globals.css';
 import { Footer } from '@/components/footer';
 
-const inter = Inter({ subsets: ['latin'] });
+const onest = Onest({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Administración de Blog',
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='es-En'>
-      <body className={inter.className} data-color-mode='dark'>
+      <body className={onest.className} data-color-mode='dark'>
         <MyBlogProvider>
           <Background />
           {children}

@@ -1,4 +1,3 @@
-
 import { Mails } from 'lucide-react';
 import Link from 'next/link';
 import { cn } from '../lib/utils';
@@ -8,7 +7,7 @@ import { buttonVariants } from './ui/button';
 export const Footer = () => {
   return (
     <>
-      <footer className='flex justify-between gap-10 border-t dark:border-[#262626] p-8 pb-12 w-full'>
+      <footer className='flex justify-between gap-10 border-t p-8 pb-12 w-full'>
         <div className='flex flex-col gap-10'>
           <div className='flex flex-col gap-2'>
             <h1 className='text-3xl font-semibold'>Let&apos;s talk</h1>

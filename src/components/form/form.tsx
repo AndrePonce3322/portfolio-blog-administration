@@ -70,7 +70,7 @@ export default function Form() {
 
       <Button
         variant={'outline'}
-        className='text-[#f5f5f5] hover:text-[#f5f5f5] bg-[#09090b] hover:bg-[#0a0a0a] w-full mt-4'
+        className='text-[#f5f5f5] hover:text-[#f5f5f5] bg-[#0a0a0a] hover:bg-[#0a0a0a] w-full mt-4 border-border'
         type='submit'
       >
         Publicar

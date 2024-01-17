@@ -27,7 +27,7 @@ export default function Tags({
           onClick={() => handleClick(option.name)}
           variant={'outline'}
           className={cn(
-            'bg-[#09090b] hover:bg-[#151515] hover:text-[#f5f5f5] h-[25px] text-xs font-normal',
+            'bg-[#09090b] hover:bg-[#151515] hover:text-[#f5f5f5] h-[25px] text-xs font-normal border-border',
             tags.includes(option.name) && 'bg-purple-500 hover:bg-purple-500'
           )}
         >
